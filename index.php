@@ -1,36 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BTS</title>
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
+  <?php include 'head.php' ?>
   <body>
-    <header>
-        <div id="header">
-            <div class="container">
-             <nav>
-                <a href="#header"><img src="images/BTS_Logo.png" class="logo" /></a>
-                <ul>
-                    <li><a href="#header">Introduction</a></li>
-                    <li><a href="#about_us">About BTS</a></li>
-                    <li><a href="#membersclick">Members</a></li>
-                    <li><a href="#q&a">Q&A</a></li>
-                    <li><a href="members.html">Fun Facts</a></li>
-                    <li><a href="discography.html">Discography</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-             </nav>
-            <div class="header-text">
-                <h1>
-                    <span>The </span>place to learn<br /> about <span>BTS</span>
-                </h1>
-            </div>
-            </div>
-        </div>
-    </header>
+  <?php include 'header.php' ?>
 
 <!-----------------ABOUT US------------------------->
     <div id="about_us"></div>
@@ -161,28 +133,9 @@
             <span class="dot"></span> 
             <span class="dot"></span> 
         </div>
-    </div>
-    <div class="qanda" id="q&a">
-        <div class="question" onclick="toggleAnswer('q1')">Q: What is BTS?</div>
-        <div id="q1" class="answer">A: BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a Grammy-nominated South Korean group...</div>
     
-        <div class="question" onclick="toggleAnswer('q2')">Q: Who are the current members of BTS?</div>
-        <div id="q2" class="answer">A: The current members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook...</div>
-      </div>
-    <footer>
-        <div id="footer-main">
-            <div class="slpce">
-                <p>
-                    It contains the work of Aiya (Aiyanur) and talks about the K Pop band known as BTS.
-                    The name stands for the Korean phrase Bangtan Sonyeondan (Korean: 방탄소년단; Hanja: 防彈少年團),
-                    which translates literally to 'Bulletproof Boy Scouts'.
-                </p>
-            </div>
-            <div class="copyright">
-                <p> © Aiyanur Ramazan</p>
-            </div>
-        </div>
-    </footer>
+    <?php include 'qna.php' ?>
+    <?php include 'footer.php' ?>
     <script src="js/slideshow.js"></script>
   </body>
 </html>
