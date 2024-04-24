@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Facts about BTS members</title>
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
+  <?php include 'head.php' ?>
   <body>
     <header>
         <div id="top">
@@ -158,21 +152,7 @@
 
     </div>
 
-    <footer>
-        <div id="footer-main">
-            <div class="slpce">
-                <p>
-                    It contains the work of Aiya (Aiyanur) and talks about the K Pop band known as BTS.
-                    The name stands for the Korean phrase Bangtan Sonyeondan (Korean: 방탄소년단; Hanja: 防彈少年團),
-                    which translates literally to 'Bulletproof Boy Scouts'.
-                </p>
-
-            </div>
-            <div class="copyright">
-                <p> © Aiyanur Ramazan</p>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php' ?>
     <script src="js/accordion.js"></script>
   </body>
 </html>
