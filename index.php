@@ -133,28 +133,9 @@
             <span class="dot"></span> 
             <span class="dot"></span> 
         </div>
-    </div>
-    <div class="qanda" id="q&a">
-        <div class="question" onclick="toggleAnswer('q1')">Q: What is BTS?</div>
-        <div id="q1" class="answer">A: BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a Grammy-nominated South Korean group...</div>
     
-        <div class="question" onclick="toggleAnswer('q2')">Q: Who are the current members of BTS?</div>
-        <div id="q2" class="answer">A: The current members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook...</div>
-      </div>
-    <footer>
-        <div id="footer-main">
-            <div class="slpce">
-                <p>
-                    It contains the work of Aiya (Aiyanur) and talks about the K Pop band known as BTS.
-                    The name stands for the Korean phrase Bangtan Sonyeondan (Korean: 방탄소년단; Hanja: 防彈少年團),
-                    which translates literally to 'Bulletproof Boy Scouts'.
-                </p>
-            </div>
-            <div class="copyright">
-                <p> © Aiyanur Ramazan</p>
-            </div>
-        </div>
-    </footer>
+    <?php include 'qna.php' ?>
+    <?php include 'footer.php' ?>
     <script src="js/slideshow.js"></script>
   </body>
 </html>
