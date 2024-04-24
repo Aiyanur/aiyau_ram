@@ -2,29 +2,7 @@
 <html lang="en">
   <?php include 'head.php' ?>
   <body>
-    <header>
-        <div id="header">
-            <div class="container">
-             <nav>
-                <a href="#header"><img src="images/BTS_Logo.png" class="logo" /></a>
-                <ul>
-                    <li><a href="#header">Introduction</a></li>
-                    <li><a href="#about_us">About BTS</a></li>
-                    <li><a href="#membersclick">Members</a></li>
-                    <li><a href="#q&a">Q&A</a></li>
-                    <li><a href="members.html">Fun Facts</a></li>
-                    <li><a href="discography.html">Discography</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-             </nav>
-            <div class="header-text">
-                <h1>
-                    <span>The </span>place to learn<br /> about <span>BTS</span>
-                </h1>
-            </div>
-            </div>
-        </div>
-    </header>
+  <?php include 'header.php' ?>
 
 <!-----------------ABOUT US------------------------->
     <div id="about_us"></div>
