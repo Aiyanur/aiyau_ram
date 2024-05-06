@@ -10,9 +10,9 @@
                   </a>
                     <div id="myLinks">
                       <a href="#">TOP</a>
-                      <a href="index.html">Home</a>
+                      <a href="index.php">Home</a>
                       <a href="members.php">Fun Facts</a>
-                      <a href="contact.html">Contact</a>
+                      <a href="contact.php">Contact</a>
                     </div>
                 </div>
             </nav>
