@@ -2,7 +2,7 @@
 <html lang="en">
   <?php include 'parts/head.php' ?>
   <body>
-  <?php include 'parts/header.php' ?>
+  <?php include 'parts/nav.php' ?>
 
 <!-----------------ABOUT US------------------------->
     <div id="about_us"></div>
@@ -28,7 +28,7 @@
     <!-----------------Members------------------>
 
     <div id="membersclick"></div>
-    <h2 class="members"> <a href="members.html" style="text-decoration: underline; color: #CABD6C;">Current Members</a></h2>
+    <h2 class="members"> <a href="members.php" style="text-decoration: underline; color: #CABD6C;">Current Members</a></h2>
     <div class="member-card">
         <div>
             <i class="fa-solid"></i>

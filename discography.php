@@ -11,7 +11,7 @@
                     <div id="myLinks">
                       <a href="#">TOP</a>
                       <a href="index.html">Home</a>
-                      <a href="members.html">Fun Facts</a>
+                      <a href="members.php">Fun Facts</a>
                       <a href="contact.html">Contact</a>
                     </div>
                 </div>
