@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include 'head.php' ?>
+  <?php include 'parts/head.php' ?>
   <body class="disco">
         <header>
             <nav class="disco">
@@ -188,7 +188,7 @@
           </tr>
 
         </table>
-        <?php include 'footer.php' ?>
+        <?php include 'parts/footer.php' ?>
     <script src="js/hamburgermenu.js"></script>
   </body>
 </html>

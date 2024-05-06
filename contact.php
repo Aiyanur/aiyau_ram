@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'head.php' ?>
+<?php include 'parts/head.php' ?>
 <body class="contact" style="background-color: darkgray;">
     <div class="container">
-        <?php include 'nav.php' ?>
+        <?php include 'parts/nav.php' ?>
     </div>
 
 <div id="contact">
@@ -30,7 +30,7 @@
           </div>
           <button id="checkboxButton" class="checkbox-button" onclick="toggleCheck()">Submit</button>
         </form>
-    <?php include 'footer.php' ?>
+    <?php include 'parts/footer.php' ?>
 </div>
 </body>
 </html>

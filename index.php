@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include 'head.php' ?>
+  <?php include 'parts/head.php' ?>
   <body>
-  <?php include 'header.php' ?>
+  <?php include 'parts/header.php' ?>
 
 <!-----------------ABOUT US------------------------->
     <div id="about_us"></div>
@@ -134,8 +134,8 @@
             <span class="dot"></span> 
         </div>
     
-    <?php include 'qna.php' ?>
-    <?php include 'footer.php' ?>
+    <?php include 'parts/qna.php' ?>
+    <?php include 'parts/footer.php' ?>
     <script src="js/slideshow.js"></script>
   </body>
 </html>
