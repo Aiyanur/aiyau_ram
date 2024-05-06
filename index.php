@@ -2,7 +2,7 @@
 <html lang="en">
   <?php include 'parts/head.php' ?>
   <body>
-  <?php include 'parts/nav.php' ?>
+  <?php include 'parts/header.php' ?>
 
 <!-----------------ABOUT US------------------------->
     <div id="about_us"></div>

@@ -1,5 +1,6 @@
 <html lang="en">
-<?php include 'parts/nav.php' ?>
+
+<?php include 'parts/header.php' ?>
 <?php include 'parts/head_thanks.php' ?>
 
 

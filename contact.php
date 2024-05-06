@@ -3,7 +3,7 @@
 <?php include 'parts/head.php' ?>
 <body class="contact" style="background-color: darkgray;">
     <div class="container">
-        <?php include 'parts/nav.php' ?>
+        <?php include 'parts/header.php' ?>
     </div>
 
 <div id="contact">
