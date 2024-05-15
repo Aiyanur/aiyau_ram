@@ -4,6 +4,7 @@
 <body class="contact" style="background-color: darkgray;">
     <?php include 'parts/header.php' ?>
 
+<div class="height9"></div>
 <div id="contact">
     <div class="container">
       <div class="row">
