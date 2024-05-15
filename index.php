@@ -5,7 +5,7 @@
   <?php include 'parts/header.php' ?>
   <div class="height9"></div>
   <div id="preloader">
-      <div class="header-text">
+      <div id="header-text">
           <h1>
               <!--- ?php include 'pridanie.pozdrav.php' ?> --->
               <span>The </span>place to learn<br /> about <span>BTS</span>
