@@ -2,9 +2,7 @@
 <html lang="en">
 <?php include 'parts/head.php' ?>
 <body class="contact" style="background-color: darkgray;">
-    <div class="container">
-        <?php include 'parts/header.php' ?>
-    </div>
+    <?php include 'parts/header.php' ?>
 
 <div id="contact">
     <div class="container">

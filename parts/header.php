@@ -6,7 +6,7 @@
                 <ul>
                     <li><a href="#header">Introduction</a></li>
                     <li><a href="#about_us">About BTS</a></li>
-                    <li><a href="#membersclick">Members</a></li>
+                    <li><a href="members.php">Members</a></li>
                     <li><a href="#q&a">Q&A</a></li>
                     <li><a href="#top">Top</a></li>
                     <li><a href="index.php">Home</a></li>
@@ -14,6 +14,7 @@
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
+        </div>
             <div class="header-text">
                 <h1>
                     <!--- ?php include 'pridanie.pozdrav.php' ?> --->
@@ -21,5 +22,4 @@
                 </h1>
             </div>
         </div>
-    </div>
 </header>
