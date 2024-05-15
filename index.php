@@ -4,14 +4,14 @@
   <body>
   <?php include 'parts/header.php' ?>
   <div class="height9"></div>
-  <div id="preloader">
-      <div id="header-text">
-          <h1>
-              <!--- ?php include 'pridanie.pozdrav.php' ?> --->
-              <span>The </span>place to learn<br /> about <span>BTS</span>
-          </h1>
+      <div id="preloader">
+          <div id="header-text">
+              <h1>
+                  <!--- ?php include 'pridanie.pozdrav.php' ?> --->
+                  <span>The </span>place to learn<br /> about <span>BTS</span>
+              </h1>
+          </div>
       </div>
-  </div>
 
 <!-----------------ABOUT US------------------------->
     <div id="about_us"></div>
