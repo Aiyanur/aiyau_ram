@@ -5,7 +5,7 @@
         <header>
             <nav class="disco">
                 <div class="topnav">
-                  <a href="javascript:void(0);" class="icon" onclick="hamburgermenu()">
+                  <a href="javascript:void(0);" class="icon" onclick="hamburger()">
                     <img src="images/BTS_Logo.png" class="logo">
                   </a>
                     <div id="myLinks">
@@ -24,8 +24,8 @@
 
          <table>
           <div class="gallery">
-            <a target="_blank" href="images/take_two.png">
-              <img src="images/take_two.png" width="800" height="600">
+            <a target="_blank" href="images/take_two.jpg">
+              <img src="images/take_two.jpg" width="800" height="600">
             </a>
             <div class="desc"><a href="https://en.wikipedia.org/wiki/Take_Two_(song)" class="link">Take Two</a></div>
           </div>
