@@ -57,6 +57,10 @@ a {
 
 /******************** Hamburger menu *****************/
 header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
   background-color: #232323;
 }
 
@@ -71,11 +75,11 @@ a {
 
 .navbar{
   min-height: 70px;
-  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  font-size: large;
 }
 
 .nav-menu {
@@ -134,10 +138,9 @@ a {
   .nav-menu{
     position: fixed;
     left: -100%;
-    top:70px;
+    top: 95px;
     gap: 0;
     flex-direction: column;
-    background-color: #232323;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -149,6 +152,7 @@ a {
 
   .nav-menu.active{
     left: 0;
+    background-color: #232323;
   }
 
 }
@@ -567,6 +571,10 @@ p.Jungkook span {
 
 .height9 {
   height: 9vh;
+}
+
+.height15 {
+  height: 15vh;
 }
 
 #about_us{

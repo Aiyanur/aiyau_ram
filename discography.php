@@ -2,22 +2,7 @@
 <html lang="en">
   <?php include 'parts/head.php' ?>
   <body class="disco">
-        <header>
-            <nav class="disco">
-                <div class="topnav">
-                  <a href="javascript:void(0);" class="icon" onclick="hamburger()">
-                    <img src="images/BTS_Logo.png" class="logo">
-                  </a>
-                    <div id="myLinks">
-                      <a href="#">TOP</a>
-                      <a href="index.php">Home</a>
-                      <a href="members.php">Fun Facts</a>
-                      <a href="contact.php">Contact</a>
-                    </div>
-                </div>
-            </nav>
-
-        </header>
+  <?php include 'parts/header.php' ?>
         <!----------- Discography gallery wall ------------->
         <div class="name">Discography</div>
         <div class="gallery_main">

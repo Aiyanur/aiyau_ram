@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'parts/head.php' ?>
-
 <body>
 <?php include 'parts/header.php' ?>
 <div class="mem-cent" style="margin-top: 15vh;">
@@ -141,6 +140,7 @@
 
 <?php include 'parts/footer.php' ?>
 <script src="js/accordion.js"></script>
+<script src="js/hamburgermenu.js"></script>
 </body>
 
 </html>

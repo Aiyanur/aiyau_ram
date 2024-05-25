@@ -3,8 +3,7 @@
 <?php include 'parts/head.php' ?>
 <body class="contact" style="background-color: darkgray;">
     <?php include 'parts/header.php' ?>
-
-<div class="height9"></div>
+    <div class="height15"></div>
 <div id="contact">
     <div class="container">
       <div class="row">
@@ -29,7 +28,8 @@
           </div>
           <button id="checkboxButton" class="checkbox-button" onclick="toggleCheck()">Submit</button>
         </form>
-    <?php include 'parts/footer.php' ?>
+        <?php include 'parts/footer.php' ?>
+    <script src="js/hamburgermenu.js"></script>
 </div>
 </body>
 </html>
