@@ -73,6 +73,8 @@
         </div>
     </div>
 </section>
+
+<?php include 'parts/footer.php' ?>
 <script src="js/hamburgermenu.js"></script>
 <script src="js/qna-accordion.js"></script>
 </body>

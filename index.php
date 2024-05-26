@@ -142,8 +142,7 @@
             <span class="dot"></span> 
             <span class="dot"></span> 
         </div>
-    
-    <?php include 'parts/qna.php' ?>
+
     <?php include 'parts/footer.php' ?>
     <script src="js/slideshow.js"></script>
     <script src="js/hamburgermenu.js"></script>
