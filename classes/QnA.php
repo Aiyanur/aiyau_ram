@@ -28,9 +28,9 @@ class QnA
     {            //function allows entering data into the database
         try {
             // Načítanie JSON súboru
-            $data = json_decode(file_get_contents('data/data.json'), true);
-            $questions = $data["question"];
-            $answers = $data["answer"];
+            $data = json_decode(file_get_contents('data/datas.json'), true);
+            $questions = $data["questions"];
+            $answers = $data["answers"];
             // Vloženie otázok a odpovedí v rámci transakcie
             $this->conn->beginTransaction();
             $sqlCheck = "SELECT COUNT(*) AS count FROM faq WHERE question = :question AND answer = :answer";
@@ -54,7 +54,6 @@ class QnA
                 }
             }
             $this->conn->commit();
-            echo "Dáta boli vložené";
         } catch (Exception $e) {
             // Zobrazenie chybového hlásenia
             echo "Chyba pri vkladaní dát do databázy: " . $e->getMessage();
