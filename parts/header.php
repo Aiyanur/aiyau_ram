@@ -9,6 +9,7 @@
             <li class="nav-item"><a href="#top" class="nav-link">Top</a></li>
             <li class="nav-item"><a href="discography.php" class="nav-link">Discography</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="registration.php" class="nav-link">Register/Login</a></li>
         </ul>
         <div class="hamburger">
             <span class="bar"></span>
