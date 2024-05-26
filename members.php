@@ -21,7 +21,7 @@
             <span>Nationality:</span> Korean<br>
             <span>Representative Emoji:</span> 🐨
         </p>
-        <button class="accordion">Facts about RM</button>
+        <button class="accordion-members accordion">Facts about RM</button>
         <div class="panel">
             <p>
                 He was born in Ilsan, Gyeonggi-do, South Korea. <br>
@@ -55,7 +55,7 @@
             <span>Nationality:</span>Korean<br>
             <span>Representative Emoji:</span> 🐻/🐯
         </p>
-        <button class="accordion">Facts about V</button>
+        <button class="accordion-members accordion">Facts about V</button>
         <div class="panel">
             <p>
                 He was born in Daegu, but later moved to Geochang where he spent his life until he moved to
@@ -89,7 +89,7 @@
             <span>Nationality:</span> Korean <br>
             <span>Representative Emoji:</span> 🐣/🐥
         </p>
-        <button class="accordion">Facts about Jimin</button>
+        <button class="accordion-members accordion">Facts about Jimin</button>
         <div class="panel">
             <p>
                 He was born in Busan, South Korea.<br>
@@ -120,7 +120,7 @@
             <span>Nationality:</span>Korean<br>
             <span>Representative Emoji:</span> 🐰
         </p>
-        <button class="accordion">Facts about Jungkook</button>
+        <button class="accordion-members accordion">Facts about Jungkook</button>
         <div class="panel">
             <p>
                 He was born in Busan, South Korea.<br>
