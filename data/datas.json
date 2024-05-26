@@ -1,23 +1,14 @@
 {
-  "text_banner": {
-    "take_two.jpg": "Take Two",
-    "BTS_Proof_album_cover_art.jpg": "Proof",
-    "BTS_-_Butter.png": "Butter",
-    "14th.jpg": "BE",
-    "DYNAMITE.jpg": "DYNAMITE",
-    "13th.jpg": "MAP OF THE SOUL : 7",
-    "12th.jpg": "MAP OF THE SOUL : PERSONA",
-    "11th.jpg": "LOVE YOURSELF 結 ‘ANSWER’",
-    "10th.jpg": "LOVE YOURSELF轉 ‘TEAR’",
-    "9th.jpg": "LOVE YOURSELF承 ‘HER’",
-    "8th.jpg": "You Never Walk Alone",
-    "7th.jpg": "WINGS",
-    "6th.jpg": "THE MOST BEAUTIFUL MOMENT IN LIFE : YOUNG FOREVER",
-    "5th.jpg": "THE MOST BEAUTIFUL MOMENT IN LIFE PT.2",
-    "4th.jpg": "THE MOST BEAUTIFUL MOMENT IN LIFE PT.1",
-    "BTS_Dark_and_Wild.jpg": "DARK & WILD",
-    "3rdSA.jpg": "SKOOL LUV AFFAIR",
-    "2ndSA.jpg": "O!RUL8,2?",
-    "1stSA.jpg": "2 COOL 4 SKOOL"
-  }
+  "questions": [
+    "Aké sú vaše skúsenosti s PHP?",
+    "Aký je váš obľúbený programovací jazyk?",
+    "Aké sú vaše ciele pre túto stránku?",
+    "Aké je najlepšie zviera?"
+  ],
+  "answers": [
+    "Mám základné znalosti PHP a skúsenosti, ktoré neviem použiť.",
+    "Môj obľúbený programovací jazyk bude určite PHP. ",
+    "Mojím cieľom je prejsť tento predmet.",
+    "Odpoveď bude vždy kačica."
+  ]
 }
