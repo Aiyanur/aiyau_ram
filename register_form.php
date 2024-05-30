@@ -2,6 +2,7 @@
 <html lang="en">
 <?php include_once "parts/head.php" ?>
 <body>
+<?php include 'parts/header.php' ?>
 <div class="form-container">
 
     <form action="" method="post">

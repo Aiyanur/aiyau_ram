@@ -1,14 +1,14 @@
 {
   "questions": [
-    "KOLKO krat KOLKO krat KOLKO krat?",
-    "KOLKO kratd KOLKO krat KOLKO krat?",
-    "KOLKO kraft KOLKO krat KOLKO krat?",
-    "KOLKO kratk KOLKO krat KOLKO krat?"
+    "tu",
+    "jo",
+    "ko",
+    "so"
   ],
   "answers": [
-    "Ne tesim Ne tesim Ne tesim Ne tesim",
-    "Ne tesimo Ne tesim Ne tesim Ne tesim",
-    "Ne tesiml Ne tesim Ne tesim Ne tesim",
-    "Ne tesime Ne tesim Ne tesim Ne tesim"
+    "kole",
+    "hole",
+    "pole",
+    "mole"
   ]
 }

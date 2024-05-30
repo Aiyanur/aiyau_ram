@@ -5,11 +5,11 @@
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="index.php#about_us" class="nav-link">About BTS</a></li>
             <li class="nav-item"><a href="members.php" class="nav-link">Members</a></li>
-            <li class="nav-item"><a href="qna.php" class="nav-link">Q&A</a></li>
+            <li class="nav-item"><a href="faq.php" class="nav-link">Q&A</a></li>
             <li class="nav-item"><a href="#top" class="nav-link">Top</a></li>
             <li class="nav-item"><a href="discography.php" class="nav-link">Discography</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-            <li class="nav-item"><a href="registration.php" class="nav-link">Register/Login</a></li>
+            <li class="nav-item"><a href="register_form.php" class="nav-link">Register/Login</a></li>
         </ul>
         <div class="hamburger">
             <span class="bar"></span>

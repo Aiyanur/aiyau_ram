@@ -1,11 +1,14 @@
 <?php
 define('__ROOT__', dirname(dirname(__FILE__)));
 require_once(__ROOT__.'/db/config.php');
+
 class Database {
     private $conn;
+
     public function __construct() {
         $this->connect();
     }
+
     protected function connect() {
         $config = DATABASE;
         $options = array(
@@ -20,7 +23,9 @@ class Database {
             die("Error connection: " . $e->getMessage());
         }
     }
+
     public function getConnection() {
         return $this->conn;
     }
 }
+?>
