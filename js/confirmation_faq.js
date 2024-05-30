@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.update-button').forEach(button => {
         button.addEventListener('click', () => {
             const question = button.getAttribute('data-question');
-            document.getElementById('old_question').value = question;
+            const answer = button.getAttribute('data-answer');
             document.getElementById('new_question').value = question;
+            document.getElementById('new_answer').value = answer;
             document.getElementById('updateForm').style.display = 'block';
         });
     });

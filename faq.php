@@ -1,11 +1,10 @@
 <?php
 require_once 'classes/Faq.php';
 
-// Создаем экземпляр класса Faq
+// Vytvorenie inštancie triedy Faq
 $faq = new Faq();
 
-// Вызываем метод insertFaq
-// $faq->insertFaq();
+//$faq->insertFaq();        #ak chceme pridať niektoré otázky odomknúť tieto
 ?>
 
 <!DOCTYPE html>
@@ -18,19 +17,19 @@ $faq = new Faq();
     <h2 class="title">FAQs</h2>
 
     <?php
-    // Подключение класса Faq
+    // Pripojenie triedy Faq
     require_once 'classes/Faq.php';
 
     try {
-        // Создание экземпляра класса Faq
+        // Vytvorenie inštancie triedy Faq
         $faq = new Faq();
 
-        // Получение всех записей FAQ
+        // Vyhľadanie všetkých záznamov FAQ
         $result = $faq->getFaq();
 
-        // Проверка наличия записей
+        // Kontrola dostupnosti záznamov
         if ($result) {
-            // Итерация по результатам и отображение каждой записи
+            // Iterovať cez výsledky a zobraziť každý záznam
             foreach ($result as $qa) { ?>
                 <div class='faq'>
                     <div class='question'>
@@ -62,11 +61,11 @@ $faq = new Faq();
                 </div>
             <?php }
         } else {
-            // Если нет записей FAQ
+            // Ak nie sú k dispozícii žiadne položky FAQ
             echo "<p>No FAQs found.</p>";
         }
     } catch (Exception $e) {
-        // Вывод сообщения об ошибке, если произошла ошибка
+        // Zobrazenie chybovej správy, ak došlo k chybe
         echo "Error: " . $e->getMessage();
     }
     ?>

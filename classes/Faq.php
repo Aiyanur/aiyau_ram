@@ -60,9 +60,10 @@ class Faq {
         $stmt->execute();
     }
 
-    public function updateFaq($newQuestion, $newAnswer) {
-        $sql = "UPDATE faq SET answer = :newAnswer WHERE question = :newQuestion";
+    public function updateFaq($oldQuestion, $newQuestion, $newAnswer) {
+        $sql = "UPDATE faq SET question = :newQuestion, answer = :newAnswer WHERE question = :oldQuestion";
         $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(':oldQuestion', $oldQuestion);
         $stmt->bindParam(':newQuestion', $newQuestion);
         $stmt->bindParam(':newAnswer', $newAnswer);
         $stmt->execute();

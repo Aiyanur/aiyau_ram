@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7209312-26cd-4a36-91ef-d1258b7bdf10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/Faq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/delete_faq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/update_faq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/confirmation_faq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_values.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/QnA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Users.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Faq.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datas.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/datas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/delete_qna.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/update_qna.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/qna-accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq-accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/register_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/delete_faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/delete_faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/update_faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/update_faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/confirmation_faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/confirmation_faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_values.php" beforeDir="false" afterPath="$PROJECT_DIR$/update_values.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +85,7 @@
       <workItem from="1715778431067" duration="20399000" />
       <workItem from="1716597453732" duration="41524000" />
       <workItem from="1717013243730" duration="6119000" />
-      <workItem from="1717083317458" duration="2457000" />
+      <workItem from="1717083317458" duration="5691000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
     $faq = new Faq();
     $faq->deleteFaq($questionToDelete);
 
-    // Удаление соответствующих данных из файла datas.json
+    // Odstránenie príslušných údajov zo súboru datas.json
     $data = json_decode(file_get_contents('../data/datas.json'), true);
     $questions = $data["questions"];
     $answers = $data["answers"];
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
     } else {
         echo "Вопрос не найден в файле datas.json!";
     }
-    // Обновление файла datas.json с новыми данными
+    // Aktualizácia súboru datas.json s novými údajmi
     $updatedData = json_encode(["questions" => array_values($questions), "answers" => array_values($answers)]);
     if (file_put_contents('../data/datas.json', $updatedData)) {
         echo "Данные успешно удалены из файла datas.json!";
