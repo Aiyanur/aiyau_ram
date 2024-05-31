@@ -597,7 +597,10 @@ section {
 
 .question h3 {
   font-size: 1.8rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
+
 
 .answer {
   max-height: 0;
@@ -609,6 +612,8 @@ section {
   padding-top: 1rem;
   line-height: 1.6;
   font-size: 1.4rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .faq.active {
@@ -707,6 +712,15 @@ section {
 
 .form-container form p a{
   color: crimson;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  text-align: center;
 }
 
 /*************** Update FaQ ****************/
