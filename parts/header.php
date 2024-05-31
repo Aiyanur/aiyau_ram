@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <header>
     <nav class="navbar">
         <a href="#header"><img src="images/BTS_Logo.png" class="nav-branding"/></a>
@@ -9,7 +12,12 @@
             <li class="nav-item"><a href="#top" class="nav-link">Top</a></li>
             <li class="nav-item"><a href="discography.php" class="nav-link">Discography</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-            <li class="nav-item"><a href="register_form.php" class="nav-link">Register/Login</a></li>
+            <?php if (isset($_SESSION['user_id'])): ?>
+                <li class="nav-item"><a href="#" class="nav-link"><?php echo $_SESSION['status'] . " #" . $_SESSION['user_id']; ?></a></li>
+                <li class="nav-item"><a href="functions/logout.php" class="nav-link">Logout</a></li>
+            <?php else: ?>
+                <li class="nav-item"><a href="register_form.php" class="nav-link">Register/Login</a></li>
+            <?php endif; ?>
         </ul>
         <div class="hamburger">
             <span class="bar"></span>
