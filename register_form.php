@@ -4,15 +4,15 @@
 <body>
 <?php include 'parts/header.php'; ?>
 <div class="form-container">
-    <?php
-    session_start();
-    if (isset($_SESSION['message'])) {
-        echo "<div class='message'>" . $_SESSION['message'] . "</div>";
-        unset($_SESSION['message']);
-    }
-    ?>
     <form action="functions/register.php" method="post">
         <h3>register now</h3>
+        <?php
+        session_start();
+        if (isset($_SESSION['message'])) {
+            echo "<div class='message'>" . $_SESSION['message'] . "</div>";
+            unset($_SESSION['message']);
+        }
+        ?>
         <input type="email" name="usermail" placeholder="enter your email" class="box" required>
         <input type="password" name="password" placeholder="enter your password" class="box" required>
         <input type="password" name="cpassword" placeholder="confirm your password" class="box" required>
