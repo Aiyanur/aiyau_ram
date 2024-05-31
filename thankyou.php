@@ -17,7 +17,7 @@
 </div>
 
 <?php include 'parts/footer.php' ?>
-
+<script src="js/hamburgermenu.js"></script>
 </body>
 
 </html>
