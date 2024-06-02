@@ -1,5 +1,6 @@
 <?php
 require_once 'classes/Faq.php';
+session_start();
 
 // Vytvorenie inštancie triedy Faq
 $faq = new Faq();
@@ -17,13 +18,7 @@ $faq = new Faq();
     <h2 class="title">FAQs</h2>
 
     <?php
-    // Pripojenie triedy Faq
-    require_once 'classes/Faq.php';
-
     try {
-        // Vytvorenie inštancie triedy Faq
-        $faq = new Faq();
-
         // Vyhľadanie všetkých záznamov FAQ
         $result = $faq->getFaq();
 
@@ -34,7 +29,7 @@ $faq = new Faq();
                 <div class='faq'>
                     <div class='question'>
                         <h3>
-                            <?php echo $qa['question']; ?>
+                            <?php echo htmlspecialchars($qa['question']); ?>
                         </h3>
                         <svg width="15" height="10" viewBox="0 0 42 25">
                             <path
@@ -48,16 +43,18 @@ $faq = new Faq();
                     </div>
                     <div class='answer'>
                         <p>
-                            <?php echo $qa['answer']; ?>
+                            <?php echo htmlspecialchars($qa['answer']); ?>
                         </p>
                     </div>
-                    <div class="button-group">
-                        <form method="post" action="functions/delete_faq.php" class="delete-form">
-                            <input type="hidden" name="question" value="<?php echo $qa['question']; ?>">
-                            <button type="submit" name="delete" class="delete-button">Delete</button>
-                        </form>
-                        <a href="update_values.php?question=<?php echo urlencode($qa['question']); ?>" class="update-button">Update</a>
-                    </div>
+                    <?php if (isset($_SESSION['status']) && $_SESSION['status'] === 'admin'): ?>
+                        <div class="button-group">
+                            <form method="post" action="functions/delete_faq.php" class="delete-form">
+                                <input type="hidden" name="question" value="<?php echo htmlspecialchars($qa['question']); ?>">
+                                <button type="submit" name="delete" class="delete-button">Delete</button>
+                            </form>
+                            <a href="update_values.php?question=<?php echo urlencode($qa['question']); ?>" class="update-button">Update</a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             <?php }
         } else {

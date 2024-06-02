@@ -42,14 +42,18 @@ class Users {
         $stmt->execute();
         $user = $stmt->fetch();
 
-        if ($user && password_verify($password, $user['password'])) {
-            $this->id = $user['id'];
-            $this->status = $user['status'];
-            session_start();
-            $_SESSION['user_id'] = $this->id;
-            $_SESSION['email'] = $user['email'];
-            $_SESSION['status'] = $this->status;
-            return "Login successful.";
+        if (password_verify($password, $user['password'])) {
+            if ($user) {
+                $this->id = $user['id'];
+                $this->status = $user['status'];
+                session_start();
+                $_SESSION['user_id'] = $this->id;
+                $_SESSION['email'] = $user['email'];
+                $_SESSION['status'] = $this->status;
+                return "Login successful.";
+            } else {
+                return "Invalid email or password.";
+            }
         } else {
             return "Invalid email or password.";
         }
@@ -58,6 +62,7 @@ class Users {
     public function getId() {
         return $this->id;
     }
+
 
     public function getStatus() {
         return $this->status;

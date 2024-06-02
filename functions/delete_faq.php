@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
     }
     // Aktualizácia súboru datas.json s novými údajmi
     $updatedData = json_encode(["questions" => array_values($questions), "answers" => array_values($answers)]);
-    if (file_put_contents('../data/datas.json', $updatedData)) {
+    if (file_put_contents('data/datas.json', $updatedData)) {
         echo "Данные успешно удалены из файла datas.json!";
     } else {
         echo "Ошибка при записи в файл datas.json!";
