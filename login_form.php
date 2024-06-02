@@ -7,7 +7,10 @@
     <form action="functions/login.php" method="post">
         <h3>login now</h3>
         <?php
-        session_start();
+        if(!isset($_SESSION))
+        {
+            session_start();
+        }
         if (isset($_SESSION['message'])) {
             echo "<div class='message'>" . $_SESSION['message'] . "</div>";
             unset($_SESSION['message']);
