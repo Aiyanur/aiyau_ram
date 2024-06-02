@@ -15,14 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
         unset($questions[$index]);
         unset($answers[$index]);
     } else {
-        echo "Вопрос не найден в файле datas.json!";
-    }
-    // Aktualizácia súboru datas.json s novými údajmi
-    $updatedData = json_encode(["questions" => array_values($questions), "answers" => array_values($answers)]);
-    if (file_put_contents('data/datas.json', $updatedData)) {
-        echo "Данные успешно удалены из файла datas.json!";
-    } else {
-        echo "Ошибка при записи в файл datas.json!";
+        echo "The question is not in the datas.json file!";
     }
 
     header("Location: ../faq.php");

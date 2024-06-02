@@ -41,7 +41,7 @@ class Faq {
             $this->conn->commit();
         } catch (Exception $e) {
             // Zobrazenie chybového hlásenia
-            echo "Chyba pri vkladaní dát do databázy: " . $e->getMessage();
+            echo "Error when entering data into the database: " . $e->getMessage();
             $this->conn->rollback();
             // Vrátenie späť zmien v prípade chyby
         }
